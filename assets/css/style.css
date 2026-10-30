@@ -306,7 +306,7 @@ a {
     border-radius: 20px;
     margin-right: 25px;
 
-    background: url('../image/project.png');
+    background: url('../image/Project.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -322,7 +322,7 @@ a {
     box-shadow: 6px ;
 }
 
-.project-desc {`
+.project-desc {
     width: 300px;
     display: flex;
     flex-direction: column;
