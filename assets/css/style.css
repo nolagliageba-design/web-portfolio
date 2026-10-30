@@ -301,24 +301,28 @@ a {
 }
 
 .project-card {
-    width: 500px;
-    height: 300px;
+    width: 950px;
+    height: 350px;
     border-radius: 20px;
     margin-right: 25px;
 
-    background: url('../image/project1.png');
+    background: url('../image/project.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    
+    
+    
+    border: 1px solid #6a364b;
 
-    border: 3px solid var(--dark);
+    
 }
 
 .project-card:hover {
     box-shadow: 6px ;
 }
 
-.project-desc {
+.project-desc {`
     width: 300px;
     display: flex;
     flex-direction: column;
@@ -334,7 +338,7 @@ a {
 
 .project-me {
     font-size: 20px;
-    line-height: 24px;
+    line-height: 30px;
     color: #e7cfcf;
 }
 
